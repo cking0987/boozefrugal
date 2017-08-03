@@ -8140,6 +8140,16 @@ button.close {
     font-size: 15px;
     margin: 2px 0; }
 
+.bf-form-level-2 {
+  display: none; }
+  .bf-form-level-2 .no-margin {
+    margin: 0;
+    padding: 0;
+    text-align: center; }
+  .bf-form-level-2 p {
+    font-size: 10px;
+    text-transform: uppercase; }
+
 .dank-factor-output {
   display: none;
   text-align: center; }
