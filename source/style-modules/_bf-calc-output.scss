@@ -1,0 +1,72 @@
+#dropdown-content-calc1,
+#dropdown-content-calc2 {
+  display: none;
+  margin-bottom: 25px;
+}
+
+.bf-calc-output {
+  background: $brand-dark-green; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient($brand-dark-blue, $brand-light-blue); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient($brand-dark-blue, $brand-light-blue); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient($brand-dark-blue, $brand-light-blue); /* For Firefox 3.6 to 15 */
+  background: linear-gradient($brand-dark-blue, $brand-light-blue); /* Standard syntax (must be last) */
+  padding: 20px;
+  .ppbOutput {
+    text-align: center;
+    padding: 10px 0;
+    h1 {
+      font-size: 50px;
+      font-family: Bebas;
+      color: white;
+      display: inline;
+    }
+    p {
+      font-family: Roboto;
+      font-weight: 100;
+      color: black;
+      font-size: $font-size-h3;
+      display: inline;
+    }
+  }
+  #dropdown-trigger-calc2 img {
+//    margin: 15px 0;
+  }
+  #dropdown-content-calc2 {
+    font-family: Roboto;
+    font-weight: 100;
+    color: $brand-light;
+    h3 {
+      font-weight: 100;
+    }
+    .ppb-benchmark-table {
+      width: 100%;
+      font-family: Bebas;
+      h2, p {
+        display: inline;
+      }
+      td, th {
+        padding-top: 15px;
+      }
+      td {
+        color: $brand-dark;
+        vertical-align: top;
+        width: 60%;
+        font-weight:200;
+      }
+      th {
+        text-align: right;
+        p {
+          padding-left: 3px;
+          font-family: Roboto;
+          color: black;
+          font-weight: 100;
+        }
+      }
+    }
+  }
+  #errorMessage {
+    text-align: center;
+    font-size: $font-size-h3;
+    color: $brand-light;
+  }
+}

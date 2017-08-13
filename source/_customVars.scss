@@ -21,13 +21,21 @@ $brand-info:            #5bc0de !default;
 $brand-warning:         #f0ad4e !default;
 $brand-danger:          #d9534f !default;
 
+$brand-dark:            #444444 !default;
+$brand-light:           #F1F1F1 !default;
+$brand-dark-blue:       #146A89 !default;
+$brand-light-blue:      #9DD3D7 !default;
+$brand-dark-green:      #4E7C59 !default;
+$brand-light-green:     #93BD9F !default;
+$brand-teal:            #1895A3 !default;
+
 
 //== Scaffolding
 //
 //## Settings for some of the most global styles.
 
 //** Background color for `<body>`.
-$body-bg:               #F1F1F1 !default;
+$body-bg:               #FFFFFF !default;
 //** Global text color on `<body>`.
 $text-color:            #146A89 !default;
 
@@ -43,7 +51,7 @@ $link-hover-decoration: underline !default;
 //
 //## Font, line-height, and color for body text, headings, and more.
 
-$font-family-sans-serif:  "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$font-family-sans-serif:  Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif !default;
 $font-family-serif:       Georgia, "Times New Roman", Times, serif !default;
 //** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
 $font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace !default;

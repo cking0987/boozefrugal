@@ -1,0 +1,16 @@
+#dropdown-content-volume,
+#dropdown-content-abv {
+  display: none;
+//  margin-bottom: 25px;
+}
+
+.bf-input-options {
+  background: $brand-dark-green; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient($brand-dark-green, $brand-light-green); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient($brand-dark-green, $brand-light-green); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient($brand-dark-green, $brand-light-green); /* For Firefox 3.6 to 15 */
+  background: linear-gradient($brand-dark-green, $brand-light-green); /* Standard syntax (must be last) */
+  .active {
+    display: none;
+  }
+}
