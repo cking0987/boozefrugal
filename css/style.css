@@ -8181,7 +8181,8 @@ button.close {
 
 #dropdown-content-volume,
 #dropdown-content-abv {
-  display: none; }
+  display: none;
+  padding: 20px 0; }
 
 .bf-input-options {
   background: #4E7C59;
