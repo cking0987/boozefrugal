@@ -8254,7 +8254,7 @@ button.close {
         padding-top: 15px; }
       .bf-calc-output #dropdown-content-calc2 .ppb-benchmark-table td {
         color: #444444;
-        vertical-align: top;
+        vertical-align: center;
         width: 60%;
         font-weight: 200; }
       .bf-calc-output #dropdown-content-calc2 .ppb-benchmark-table th {
