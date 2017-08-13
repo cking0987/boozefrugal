@@ -2,13 +2,13 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,400");
 @font-face {
   font-family: 'Avenir';
-  src: url("./fonts/Avenir.ttc"); }
+  src: url("../fonts/Avenir.ttc"); }
 @font-face {
   font-family: 'Bebas';
-  src: url("./fonts/BEBAS.ttc"); }
+  src: url("../fonts/BEBAS.ttc"); }
 @font-face {
   font-family: 'BebasNeue';
-  src: url("./fonts/BebasNeue.otf"); }
+  src: url("../fonts/BebasNeue.otf"); }
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.
