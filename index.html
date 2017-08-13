@@ -45,24 +45,23 @@
 <!-- VOL -->
       <div class="row no-margin">
         <div class="col col-xs-12 input-header no-padding">
-          <div class="row no-margin">
-            <div class="col-xs-12 input-header-title">VOLUME</div>
-          </div>
-          <div class="row no-margin">
-            <div class="no-padding input-header-toggle">
-              <div id="dropdown-trigger-volume">
-                <img src="./img/images/bf-vol_03.png" class="img-fill-width" alt="">
-                <img src="./img/images/bf-vol_12.png" class="img-fill-width" style="display:none" alt="">
-              </div>
-            </div>
-            <div class="no-padding input-header-value">
-              <div class="bf-form-control">
-                <input type="text" id="inputVolume" class="bf-input-main" placeholder="Volume" autocomplete="off">
-              </div>
-            </div>
-            <div class="no-padding input-header-unit">
-              <p>oz</p>
-            </div>
+          <div class="row no-margin bf-input-header">
+            <table class="bf-input-header">
+              <tr>
+                <td class="no-padding input-header-toggle">
+                  <div id="dropdown-trigger-volume">
+                    <img src="./img/images/bf-vol_03.png" alt="">
+                    <img src="./img/images/bf-vol_12.png" style="display:none" alt="">
+                  </div>
+                </td>
+                <td class="no-padding input-header-value">
+                    <input type="text" id="inputVolume" class="bf-input-main" placeholder="Volume" autocomplete="off">
+                </td>
+                <td class="no-padding input-header-unit">
+                  oz
+                </td>
+              </tr>
+            </table>
           </div>
         </div>
       </div>
@@ -127,24 +126,23 @@
 <!-- ABV -->
       <div class="row no-margin">
         <div class="col-xs-12 input-header no-padding">
-          <div class="row no-margin">
-            <div class="col-xs-12 input-header-title">ABV</div>
-          </div>
-          <div class="row no-margin">
-            <div class="no-padding input-header-toggle">
-              <div id="dropdown-trigger-abv">
-                <img src="./img/images/bf-vol_03.png" class="img-fill-width" alt="">
-                <img src="./img/images/bf-vol_12.png" class="img-fill-width" style="display:none" alt="">
-              </div>
-            </div>
-            <div class="no-padding input-header-value">
-              <div class="bf-form-control">
-                <input type="text" id="inputABV" class="bf-input-main" placeholder="ABV" autocomplete="off">
-              </div>
-            </div>
-            <div class="no-padding input-header-unit">
-              <p>%</p>
-            </div>
+          <div class="row no-margin bf-input-header">
+            <table class="bf-input-header">
+              <tr>
+                <td class="no-padding input-header-toggle">
+                  <div id="dropdown-trigger-abv">
+                    <img src="./img/images/bf-vol_03.png" alt="">
+                    <img src="./img/images/bf-vol_12.png" style="display:none" alt="">
+                  </div>
+                </td>
+                <td class="no-padding input-header-value">
+                    <input type="text" id="inputABV" class="bf-input-main" placeholder="ABV" autocomplete="off">
+                </td>
+                <td class="no-padding input-header-unit">
+                  %
+                </td>
+              </tr>
+            </table>
           </div>
         </div>
       </div>
@@ -181,21 +179,20 @@
 <!-- PRICE -->
       <div class="row no-margin">
         <div class="col-xs-12 input-header no-padding">
-          <div class="row no-margin">
-            <div class="col-xs-12 input-header-title">PRICE</div>
-          </div>
-          <div class="row no-margin">
-            <div class="no-padding input-header-toggle">
-              <img src="./img/images/bf-price_03.png" class="img-fill-width" alt="">
-            </div>
-            <div class="no-padding input-header-value">
-              <div class="bf-form-control">
-                <input type="text" id="inputPrice" class="bf-input-main" placeholder="Price" autocomplete="off">
-              </div>
-            </div>
-            <div class="no-padding input-header-unit">
-              <p>USD</p>
-            </div>
+          <div class="row no-margin bf-input-header">
+            <table class="bf-input-header">
+              <tr>
+                <td class="no-padding input-header-toggle">
+                    <img src="./img/images/bf-price_03.png" alt="">
+                </td>
+                <td class="no-padding input-header-value">
+                  <input type="text" id="inputPrice" class="bf-input-main" placeholder="Price" autocomplete="off">
+                </td>
+                <td class="no-padding input-header-unit">
+                  USD
+                </td>
+              </tr>
+            </table>
           </div>
         </div>
       </div>
@@ -233,7 +230,7 @@
               <div class="ppbOutput">
                 <h1>$<span id="ppbValue"></span></h1><p>ppb</p>
               </div>
-              <span id="errorMessage"></span>
+              <div id="errorMessage"></div>
             </div>
 
             <div id="dropdown-content-calc2" class="row no-margin">
@@ -243,7 +240,7 @@
               <p>We are currently working on a benchmark database which will allow you to easily compare your ppb to other similar drinks. Until then, here are some examples to compare to:</p>
                 <table class="ppb-benchmark-table">
                   <tr>
-                    <td>24-pack of bud light for $20</td>
+                    <td>24-pack of <br />bud light for <br />$20</td>
                     <th><h2>$1.61</h2><p>ppb</p></th>
                   </tr>
                   <tr>

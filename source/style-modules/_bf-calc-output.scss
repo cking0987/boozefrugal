@@ -16,12 +16,12 @@
     padding: 10px 0;
     h1 {
       font-size: 50px;
-      font-family: Bebas;
+      font-family: $font-family-condensed;
       color: white;
       display: inline;
     }
     p {
-      font-family: Roboto;
+      font-family: $font-family-sans-serif;
       font-weight: 100;
       color: black;
       font-size: $font-size-h3;
@@ -32,7 +32,7 @@
 //    margin: 15px 0;
   }
   #dropdown-content-calc2 {
-    font-family: Roboto;
+    font-family: $font-family-sans-serif;
     font-weight: 100;
     color: $brand-light;
     h3 {
@@ -40,7 +40,7 @@
     }
     .ppb-benchmark-table {
       width: 100%;
-      font-family: Bebas;
+      font-family: $font-family-condensed;
       h2, p {
         display: inline;
       }
@@ -57,7 +57,7 @@
         text-align: right;
         p {
           padding-left: 3px;
-          font-family: Roboto;
+          font-family: $font-family-sans-serif;
           color: black;
           font-weight: 100;
         }
@@ -66,7 +66,8 @@
   }
   #errorMessage {
     text-align: center;
-    font-size: $font-size-h3;
+    font-size: $font-size-h4;
     color: $brand-light;
+    margin-bottom: 15px;
   }
 }

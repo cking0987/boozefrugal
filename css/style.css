@@ -1,5 +1,6 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,400");
+@import url("https://fonts.googleapis.com/css?family=Oswald");
 @font-face {
   font-family: 'Avenir';
   src: url("../fonts/Avenir.ttc"); }
@@ -1078,7 +1079,7 @@ html {
   -webkit-tap-highlight-color: transparent; }
 
 body {
-  font-family: Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857;
   color: #146A89;
@@ -5192,7 +5193,7 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -5298,7 +5299,7 @@ button.close {
   display: none;
   max-width: 276px;
   padding: 1px;
-  font-family: Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -8142,42 +8143,49 @@ button.close {
 
 .input-header {
   background-color: #94be9f; }
-  .input-header .input-header-title {
-    color: #F1F1F1;
+  .input-header .bf-input-header {
+    font-weight: 100;
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 30px;
-    height: 50px;
-    padding-top: 13px; }
-  .input-header .row:nth-child(2) {
-    display: table-row; }
+    width: 100%; }
   .input-header .input-header-toggle,
   .input-header .input-header-value,
   .input-header .input-header-unit {
-    display: table-cell;
-    vertical-align: bottom;
-    padding-bottom: 12.5px; }
+    vertical-align: bottom; }
   .input-header .input-header-toggle {
-    width: 15%; }
+    width: 75px; }
+    .input-header .input-header-toggle img {
+      height: 75px; }
   .input-header .input-header-value {
-    width: 60%; }
+    width: auto;
+    padding-bottom: 10px; }
     .input-header .input-header-value .bf-input-main {
       border: none;
       border-bottom: 1px solid #146A89;
-      font-size: 30px;
       color: #444444;
       width: 100%;
+      height: 54px;
       background: none;
-      font-weight: 100;
       text-align: right; }
+      .input-header .input-header-value .bf-input-main::-webkit-input-placeholder {
+        /* Chrome/Opera/Safari */
+        color: #444444; }
+      .input-header .input-header-value .bf-input-main::-moz-placeholder {
+        /* Firefox 19+ */
+        color: #444444; }
+      .input-header .input-header-value .bf-input-main:-ms-input-placeholder {
+        /* IE 10+ */
+        color: #444444; }
+      .input-header .input-header-value .bf-input-main:-moz-placeholder {
+        /* Firefox 18- */
+        color: #444444; }
       .input-header .input-header-value .bf-input-main:focus {
         outline: none;
         background-color: #a3c7ad; }
   .input-header .input-header-unit {
-    width: 25%;
-    max-width: 50px; }
-    .input-header .input-header-unit p {
-      font-size: 24px;
-      font-weight: 100;
-      margin: 0 0 0 25px; }
+    width: 75px;
+    padding-bottom: 16px;
+    padding-left: 10px; }
 
 #dropdown-content-volume,
 #dropdown-content-abv {
@@ -8197,6 +8205,8 @@ button.close {
   /* Standard syntax (must be last) */ }
   .bf-input-options .active {
     display: none; }
+  .bf-input-options .col-xs-4 {
+    padding: 0; }
 
 #dropdown-content-calc1,
 #dropdown-content-calc2 {
@@ -8220,24 +8230,24 @@ button.close {
     padding: 10px 0; }
     .bf-calc-output .ppbOutput h1 {
       font-size: 50px;
-      font-family: Bebas;
+      font-family: Oswald, Helvetica, Arial, sans-serif;
       color: white;
       display: inline; }
     .bf-calc-output .ppbOutput p {
-      font-family: Roboto;
+      font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
       font-weight: 100;
       color: black;
       font-size: 24px;
       display: inline; }
   .bf-calc-output #dropdown-content-calc2 {
-    font-family: Roboto;
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 100;
     color: #F1F1F1; }
     .bf-calc-output #dropdown-content-calc2 h3 {
       font-weight: 100; }
     .bf-calc-output #dropdown-content-calc2 .ppb-benchmark-table {
       width: 100%;
-      font-family: Bebas; }
+      font-family: Oswald, Helvetica, Arial, sans-serif; }
       .bf-calc-output #dropdown-content-calc2 .ppb-benchmark-table h2, .bf-calc-output #dropdown-content-calc2 .ppb-benchmark-table p {
         display: inline; }
       .bf-calc-output #dropdown-content-calc2 .ppb-benchmark-table td, .bf-calc-output #dropdown-content-calc2 .ppb-benchmark-table th {
@@ -8251,13 +8261,14 @@ button.close {
         text-align: right; }
         .bf-calc-output #dropdown-content-calc2 .ppb-benchmark-table th p {
           padding-left: 3px;
-          font-family: Roboto;
+          font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
           color: black;
           font-weight: 100; }
   .bf-calc-output #errorMessage {
     text-align: center;
-    font-size: 24px;
-    color: #F1F1F1; }
+    font-size: 18px;
+    color: #F1F1F1;
+    margin-bottom: 15px; }
 
 .no-padding {
   padding: 0; }
