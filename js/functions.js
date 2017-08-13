@@ -43,11 +43,10 @@ $('.input-option-abv').click(function(){
 //
 /// Calculate button
 $('#dropdown-trigger-calc1').click(function(){
-    if ( (/^\d+$/.test($('#inputVolume').val())) && (/^\d+$/.test($('#inputABV').val())) && (/^\d+$/.test($('#inputPrice').val())) ) {
+    if ( $.isNumeric(parseFloat(inputPrice.value)) && $.isNumeric(parseFloat(inputVolume.value)) && $.isNumeric(parseFloat(inputProof.value)) ) {
       //clear errors
       $('#errorMessage').html('');
       //dropdown
-
       if( !$('#dropdown-content-calc1').is(':visible') ) {
         $('#dropdown-content-calc1').slideToggle(400);
       };
